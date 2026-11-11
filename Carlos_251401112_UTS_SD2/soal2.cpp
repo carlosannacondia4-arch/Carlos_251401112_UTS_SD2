@@ -8,7 +8,6 @@ struct Node {
 
 Node* head = nullptr;
 
-// 1. Tambah di awal
 void tambahDiAwal(int nilai) {
     Node* baru = new Node();
     baru->data = nilai;
@@ -16,7 +15,6 @@ void tambahDiAwal(int nilai) {
     head = baru;
 }
 
-// 2. Tambah di akhir
 void tambahDiAkhir(int nilai) {
     Node* baru = new Node();
     baru->data = nilai;
